@@ -1,0 +1,30 @@
+img {
+    height: 500px;
+    border: solid darkblue 2px;
+    background-color: whitesmoke;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+.box-layouts {
+    border: solid 2px darkblue;
+    height: 100px;
+}
+
+.bgc-title {
+    background-color: navy;
+}
+
+.bgc-research {
+    background-color: rgb(2, 12, 76);
+}
+
+.text-lightblue {
+    color: lightblue;
+}
+
+.text-lighterblue {
+    color: lightskyblue;
+}
