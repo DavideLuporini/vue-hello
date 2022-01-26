@@ -15,5 +15,27 @@ const root = new Vue({
         message: 'Image generator',
         subtitle: 'search your prefer images',
         img: '',
-    }
+
+    },
+    method: {
+        defautImg() {
+            if (!this.img)
+                this.img = 'https://cdn.statically.io/img/www.sapevatelo.org/wp-content/uploads/2018/01/Sfondo-cell-hd.jpg';
+        }
+    },
 })
+
+
+
+defautImg = () => {
+    if (!root.img) {
+        root.img =
+            "https://cdn.statically.io/img/www.sapevatelo.org/wp-content/uploads/2018/01/Sfondo-cell-hd.jpg";
+        console.log("sium");
+    }
+};
+
+setInterval(defautImg, 1000);
+
+
+// ! AIUTOOOOOOO!!!!!!!!!!!!!!!!!!!
